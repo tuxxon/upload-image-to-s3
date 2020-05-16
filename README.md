@@ -3,7 +3,7 @@
  Upload an image to s3 with a signed url by using lambda_function on AWS
 
 # Register IAM-USER
-You must register iam_user_policy.json on IAM user.
+You must register iam_user_policy.json on IAM user for lambda_function to upload an image to s3.
 
 # Deploy
 First of all, you have to install `serverless` framework.  <br/>
